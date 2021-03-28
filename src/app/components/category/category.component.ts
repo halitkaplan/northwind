@@ -37,9 +37,9 @@ export class CategoryComponent implements OnInit {
 
   getAllCategoryClass() {
     if (!this.currentCategory) {
-      return "list-gropu-item active"
+      return "list-group-item active"
     }
     else
-    return "list-gropu-item"
+    return "list-group-item"
   }
 }
